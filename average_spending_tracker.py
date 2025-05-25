@@ -9,4 +9,5 @@ a_7=float(input("yettinchi kun harajatini kiriting: $"))
 ortachasi=(a_1+a_2+a_3+a_4+a_5+a_6+a_7)/7
 a=f"{ortachasi:.2f}"
 print("o'rtacha harajat:($)",a,",",end="")
-print(num2words(a,lang="en"),",",num2words(a,lang="ru"))
+print(num2words(a,lang="en",to="currency"),"  ",end="")
+print(num2words(a,lang="ru",to="currency"))
